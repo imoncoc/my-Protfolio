@@ -172,3 +172,9 @@ button.green-button:hover{
 .heading-color-primary{
     background-image: linear-gradient(to right,rgba(68, 88, 220, 1), rgba(133, 79, 238, 1));
 }
+
+
+
+.extra-space{
+    margin-top: 6rem;
+}

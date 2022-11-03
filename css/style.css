@@ -25,7 +25,7 @@ font-family: 'Roboto', sans-serif;
 } */
 
 .navbar h2{
-    background: var(--gradient-color);
+    background: var(--gradient-color-green);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -35,7 +35,7 @@ font-family: 'Roboto', sans-serif;
 
 .navbar .nav-item{
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .nav-item .nav-link{
@@ -46,14 +46,16 @@ font-family: 'Roboto', sans-serif;
 }
 
 .navbar-nav .active{
-    background: var(--gradient-color);
+    /* background: var(--gradient-color); */
+    background: var(--gradient-color-green);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .navbar-nav a:hover{
-    background: var(--gradient-color);
+    /* background: var(--gradient-color); */
+    background: var(--gradient-color-green);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -219,6 +221,25 @@ font-family: 'Roboto', sans-serif;
 .form__textarea{
     border-bottom: 3px solid transparent;
     width: 100%;
+}
+
+.form__label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-top: 7px;
+    display: block;
+    transition: all 0.3s;
+}
+
+.form__input:placeholder-shown+.form__label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-2.4rem);
+}
+
+.form__input:placeholder-shown~.form__message {
+    transform: translateY(-5.5rem);
 }
 
 /* Footer */

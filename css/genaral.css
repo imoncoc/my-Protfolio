@@ -179,3 +179,31 @@ button.green-button:hover{
     margin-top: 6rem;
     margin-bottom: 6rem;
 }
+
+.react-color{
+    color: #087ea4;
+}
+.shutter-safari-color{
+    color: #84CC16;
+}
+.cars-land-color {
+    color: #40ACF1;
+}
+.flaming-wings-color{
+    color: #eb984e;
+}
+.zn-en-color {
+    color: #071013;
+}
+.hetello-color {
+    color: #370617;
+}
+.comfy-color {
+    color: #fdbe02;
+}
+.omni-food-color {
+    color: #e67e22;
+}
+.fylo-color {
+    color: hsl(216, 53%, 9%);
+}

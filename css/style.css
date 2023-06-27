@@ -182,9 +182,34 @@ font-family: 'Roboto', sans-serif;
     /* outline: 0.5rem solid var(--color-primary-green); */
     /* outline: 0.5rem solid #C7EAE4; */
     outline: 0.5rem solid rgba(0, 0, 0, 0.5);
-    transform: scale(1.30) translateY(-0.5rem);
+    /* outline: 0.5rem solid rgba(132, 204, 22, 0.5); */
+    transform: scale(1.35) translateY(-0.5rem);
     box-shadow: 0 2rem 3.5rem rgba(0, 0, 0, 0.5);
     z-index: 20;
+}
+.composition__photo__shutter__safari:hover{
+    outline: 0.5rem solid rgba(132, 204, 22, 0.5);
+}
+.composition__photo__cars__land:hover {
+    outline: 0.5rem solid rgba(64, 172, 241, 0.5);
+}
+.composition__photo__flaming__wings:hover {
+    outline: 0.5rem solid rgba(235, 152, 78, 0.5);
+}
+.composition__photo__zn__en:hover {
+    outline: 0.5rem solid rgba(7, 16, 19, 0.5);
+}
+.composition__photo__hetello:hover {
+    outline: 0.5rem solid rgba(55, 6, 23, 0.5);
+}
+.composition__photo__comfy:hover {
+    outline: 0.5rem solid rgba(253, 190, 2, 0.5);
+}
+.composition__photo__omni-food:hover {
+    outline: 0.5rem solid rgba(230, 126, 34, 0.5);
+}
+.composition__photo__fylo:hover {
+    outline: 0.5rem solid rgba(11, 21, 35, 0.5);
 }
 
 .composition:hover .composition__photo:not(:hover){

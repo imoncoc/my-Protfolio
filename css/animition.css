@@ -54,3 +54,28 @@
 .about-text-div{
     animation: moveInRight 1s ease-out 0.4s;
 }
+
+
+.height-max {
+    height: calc(100vh - 76px);
+    background: url(../img/headerBcg.jpeg) center/cover fixed no-repeat;
+    animation-name: zoom;
+    animation-duration: 20s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2) translateX(-5%);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

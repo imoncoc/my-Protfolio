@@ -8,7 +8,8 @@
     <title>Personal Prot-Folio</title>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- Css -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/genaral.css">
@@ -23,7 +24,7 @@
 
 <body>
     <!-- Nvabar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
         <div class="container-fluid ms-3">
             <div class="d-flex">
                 <h2 class="align-self-center color-burnswick"><strong>Imon</strong></h2>
@@ -52,11 +53,11 @@
                     <h2 class="title-text mt-5">Hey</h2>
                     <h1 class="text-uppercase">I am Imon</h1>
                     <p class="">Front-End Developer</p>
-                    <button type="button" class="aminated-bottom btn mb-5 button  green-button text-uppercase">Explore</button>
+                    <button class="aminated-bottom btn mb-5 button  green-button text-uppercase" download type="button" src="./image/resume-of-imon.pdf" target="_blank" onclick="location.href='./image/resume-of-imon.pdf'">Download Resume</button>
                 </div>
 
 
-                <div class="col-10 col-md-6 mx-auto main-img">
+                <div class="col-10 col-md-6 mx-auto main-img height-max">
                     <img class="img-fluid" src="./image/banner-image.png" alt="">
                 </div>
             </div>
@@ -81,7 +82,7 @@
                         </p>
                         <!--  Use in button 
                         onclick="location.href='./image/resume-imon.pdf'"  -->
-                        <button type="button" src="./image/resume-imon.pdf" target="_blank" onclick="location.href='./image/resume-imon.pdf'" class="aminated-bottom btn mb-5 button green-button text-uppercase">Download CV</button>
+                        <button type="button" src="./image/resume-of-imon.pdf" target="_blank" onclick="location.href='./image/resume-of-imon.pdf'" class="aminated-bottom btn mb-5 button green-button text-uppercase">Download Resume</button>
                     </div>
                 </div>
             </div>
@@ -186,127 +187,147 @@
 
 
                     <!-- Project 1 -->
-                    <div class="col-10 col-md-6 mx-auto my-5">
+                    <div class="col-10 col-md-6 mx-auto extra-space">
                         <div class="text-center">
-                            <a href="https://hetello-ecommerce.netlify.app" target="_blank" class="project-heading-link">
-                                <h3 class="fw-bold text-danger">ZN Enterprize</h3>
+                            <a href="https://shutter-safari.web.app/" target="_blank" class="project-heading-link">
+                                <h3 class="fw-bold shutter-safari-color">Shutter Safari</h3>
                             </a>
-                            <p class="mb-5 text-muted">Angular Project
+                            <p class="mb-5 text-muted fw-semibold">MERN Project/
+                                <a href="https://github.com/imoncoc/shutter-safari-client" target="_blank" class="project-heading-link react-color">Client Code</a>/
+                                <a href="https://github.com/imoncoc/shutter-safari-server" target="_blank" class="project-heading-link react-color">Server Code</a>
                             </p>
                         </div>
                         <div class="composition" style="margin-bottom: 18rem;">
-                            <a href="https://znfurniturebd.com/" target="_blank"><img src="./image/zn-01.JPG" alt="Photo 1" class="composition__photo composition__photo--p1"></a>
-                            <a href="https://znfurniturebd.com/" target="_blank"><img src="./image/zn-02.JPG" alt="Photo 2" class="composition__photo composition__photo--p2 "></a>
-                            <a href="https://znfurniturebd.com/" target="_blank"><img src="./image/zn-03.JPG" alt="Photo 3" class="composition__photo composition__photo--p3"></a>
+                            <a href="https://shutter-safari.web.app/" target="_blank"><img src="./image/shutter-safari-00.JPG" alt="Photo 1" class="composition__photo composition__photo--p1 composition__photo__shutter__safari"></a>
+                            <a href="https://shutter-safari.web.app/" target="_blank"><img src="./image/shutter-safari-01.JPG" alt="Photo 2" class="composition__photo composition__photo--p2 composition__photo__shutter__safari"></a>
+                            <a href="https://shutter-safari.web.app/" target="_blank"><img src="./image/shutter-safari-04.JPG" alt="Photo 3" class="composition__photo composition__photo--p3 composition__photo__shutter__safari"></a>
                         </div>
                     </div>
 
                     <!-- Project 2 -->
-                    <div class="col-10 col-md-6 mx-auto my-5">
+                    <div class="col-10 col-md-6 mx-auto extra-space">
                         <div class="text-center">
-                            <a href="https://hetello-ecommerce.netlify.app" target="_blank" class="project-heading-link">
-                                <h3 class="fw-bold text-danger">Hetello E-Commarce</h3>
+                            <a href="https://cars-land.web.app/" target="_blank" class="project-heading-link">
+                                <h3 class="fw-bold cars-land-color">Cars Land</h3>
                             </a>
-                            <p class="mb-5 text-muted">Angular Project/
-                                <a href="https://github.com/imoncoc/Hetello-ecommerce/tree/master" target="_blank" class="project-heading-link text-danger">Github link</a>
+                            <p class="mb-5 text-muted fw-semibold">MERN Project/
+                                <a href="https://github.com/imoncoc/cars-land-client" target="_blank" class="project-heading-link react-color">Client Code</a>/
+                                <a href="https://github.com/imoncoc/cars-land-server" target="_blank" class="project-heading-link react-color">Server Code</a>
                             </p>
                         </div>
                         <div class="composition" style="margin-bottom: 18rem;">
-                            <a href="https://hetello-ecommerce.netlify.app" target="_blank"><img src="./image/hetello 1.JPG" alt="Photo 1" class="composition__photo composition__photo--p1"></a>
-                            <a href="https://hetello-ecommerce.netlify.app" target="_blank"><img src="./image/hetello 2.JPG" alt="Photo 2" class="composition__photo composition__photo--p2 "></a>
-                            <a href="https://hetello-ecommerce.netlify.app" target="_blank"><img src="./image/hetello 3.JPG" alt="Photo 3" class="composition__photo composition__photo--p3"></a>
+                            <a href="https://cars-land.web.app/" target="_blank"><img src="./image/cars-land-00.JPG" alt="Photo 1" class="composition__photo composition__photo--p1 composition__photo__cars__land"></a>
+                            <a href="https://cars-land.web.app/" target="_blank"><img src="./image/cars-land-01.JPG" alt="Photo 2" class="composition__photo composition__photo--p2 composition__photo__cars__land"></a>
+                            <a href="https://cars-land.web.app/" target="_blank"><img src="./image/cars-land-03.JPG" alt="Photo 3" class="composition__photo composition__photo--p3 composition__photo__cars__land"></a>
                         </div>
                     </div>
-
 
                     <!-- Project 3 -->
                     <div class="col-10 col-md-6 mx-auto extra-space">
                         <div class="text-center">
-                            <a href="https://employee-manegement-system.netlify.app/" target="_blank" class="project-heading-link">
-                                <h3 class="fw-bold text-danger">Employee Managment</h3>
+                            <a href="https://flaming-wings-10.web.app/" target="_blank" class="project-heading-link">
+                                <h3 class="fw-bold flaming-wings-color">Flaming Wings</h3>
                             </a>
-                            <p class="mb-5 text-muted">Angular Project/
-                                <a href="https://github.com/imoncoc/employee-managment-system-angular/tree/master" target="_blank" class="project-heading-link text-danger">Github link</a>
+                            <p class="mb-5 text-muted fw-semibold">MERN Project/
+                                <a href="https://github.com/imoncoc/flaming-wings-client" target="_blank" class="project-heading-link react-color">Client Code</a>/
+                                <a href="https://github.com/imoncoc/flaming-wings-server" target="_blank" class="project-heading-link react-color">Server Code</a>
                             </p>
                         </div>
-                        <div class="composition" style="margin-bottom: 16rem;">
-                            <a href="https://employee-manegement-system.netlify.app" target="_blank"><img src="./image/student-manegment 1.JPG" alt="Photo 1" class="composition__photo composition__photo--p1"></a>
-                            <a href="https://employee-manegement-system.netlify.app" target="_blank"><img src="./image/student-manegment 2.JPG" alt="Photo 2" class="composition__photo composition__photo--p2 "></a>
-                            <a href="https://employee-manegement-system.netlify.app" target="_blank"><img src="./image/student-manegment 3.JPG" alt="Photo 3" class="composition__photo composition__photo--p3"></a>
+                        <div class="composition" style="margin-bottom: 18rem;">
+                            <a href="https://flaming-wings-10.web.app/" target="_blank"><img src="./image/flamings-wing-01.JPG" alt="Photo 1" class="composition__photo composition__photo--p1 composition__photo__flaming__wings"></a>
+                            <a href="https://flaming-wings-10.web.app/" target="_blank"><img src="./image/falmings-wing-02.JPG" alt="Photo 2" class="composition__photo composition__photo--p2 composition__photo__flaming__wings"></a>
+                            <a href="https://flaming-wings-10.web.app/" target="_blank"><img src="./image/flamings-wing-04.JPG" alt="Photo 3" class="composition__photo composition__photo--p3 composition__photo__flaming__wings"></a>
                         </div>
                     </div>
 
                     <!-- Project 4 -->
                     <div class="col-10 col-md-6 mx-auto extra-space">
                         <div class="text-center">
-                            <a href="https://comfyy-sloth.netlify.app" target="_blank" class="project-heading-link">
-                                <h3 class="fw-bold text-info">Comfy Sloth</h3>
+                            <a href="https://znfurniturebd.com/" target="_blank" class="project-heading-link">
+                                <h3 class="fw-bold zn-en-color">ZN Enterprize</h3>
                             </a>
-                            <p class="mb-5 text-muted">Bootstrap Project/
-                                <a href="https://github.com/imoncoc/Comfy_Sloth" target="_blank" class="project-heading-link text-info">Github link</a>
+                            <p class="mb-5 text-muted fw-semibold">Angular Project
                             </p>
                         </div>
                         <div class="composition" style="margin-bottom: 18rem;">
-                            <a href="https://comfyy-sloth.netlify.app" target="_blank"><img src="./image/comfy-1.jpg" alt="Photo 1" class="composition__photo composition__photo--p1"></a>
-                            <a href="https://comfyy-sloth.netlify.app" target="_blank"><img src="./image/comfy-2.jpg" alt="Photo 2" class="composition__photo composition__photo--p2"></a>
-                            <a href="https://comfyy-sloth.netlify.app" target="_blank"><img src="./image/comfy-3.jpg" alt="Photo 3" class="composition__photo composition__photo--p3"></a>
+                            <a href="https://znfurniturebd.com/" target="_blank"><img src="./image/zn-01.JPG" alt="Photo 1" class="composition__photo composition__photo--p1 composition__photo__zn__en"></a>
+                            <a href="https://znfurniturebd.com/" target="_blank"><img src="./image/zn-02.JPG" alt="Photo 2" class="composition__photo composition__photo--p2 composition__photo__zn__en"></a>
+                            <a href="https://znfurniturebd.com/" target="_blank"><img src="./image/zn-03.JPG" alt="Photo 3" class="composition__photo composition__photo--p3 composition__photo__zn__en"></a>
                         </div>
                     </div>
 
                     <!-- Project 5 -->
                     <div class="col-10 col-md-6 mx-auto extra-space">
                         <div class="text-center">
-                            <a href="https://omnifood-imon.netlify.app" target="_blank" class="project-heading-link">
-                                <h3 class="fw-bold text-info">Omni Food</h3>
+                            <a href="https://hetello-ecommerce.netlify.app" target="_blank" class="project-heading-link">
+                                <h3 class="fw-bold hetello-color">Hetello E-Commerce</h3>
                             </a>
-                            <p class="mb-5 text-muted">CSS Project/
-                                <a href="https://github.com/imoncoc/omnifood/tree/master" target="_blank" class="project-heading-link text-info">Github link</a>
+                            <p class="mb-5 text-muted fw-semibold">Angular Project/
+                                <a href="https://github.com/imoncoc/Hetello-ecommerce/tree/master" target="_blank" class="project-heading-link text-danger">Github link</a>
                             </p>
                         </div>
-                        <div class="composition" style="margin-bottom: 16rem;">
-                            <a href="https://omnifood-imon.netlify.app" target="_blank"><img src="./image/omnifood-1.JPG" alt="Photo 1" class="composition__photo composition__photo--p1"></a>
-                            <a href="https://omnifood-imon.netlify.app" target="_blank"><img src="./image/omnifood-2.JPG" alt="Photo 2" class="composition__photo composition__photo--p2"></a>
-                            <a href="https://omnifood-imon.netlify.app" target="_blank"><img src="./image/omnifood-3.JPG" alt="Photo 3" class="composition__photo composition__photo--p3"></a>
-                            <!-- <img src="./image/omnifood-2.JPG" alt="Photo 2" class="composition__photo composition__photo--p2 ">
-                  <img src="./image/omnifood-3.JPG" alt="Photo 3" class="composition__photo composition__photo--p3"> -->
+                        <div class="composition" style="margin-bottom: 18rem;">
+                            <a href="https://hetello-ecommerce.netlify.app" target="_blank"><img src="./image/hetello 1.JPG" alt="Photo 1" class="composition__photo composition__photo--p1 composition__photo__hetello"></a>
+                            <a href="https://hetello-ecommerce.netlify.app" target="_blank"><img src="./image/hetello 2.JPG" alt="Photo 2" class="composition__photo composition__photo--p2 composition__photo__hetello"></a>
+                            <a href="https://hetello-ecommerce.netlify.app" target="_blank"><img src="./image/hetello 3.JPG" alt="Photo 3" class="composition__photo composition__photo--p3 composition__photo__hetello"></a>
                         </div>
                     </div>
 
+
                     <!-- Project 6 -->
-                    <div class="col-10 col-md-6 mx-auto  extra-space">
+                    <div class="col-10 col-md-6 mx-auto extra-space">
                         <div class="text-center">
-                            <a href="https://fylo-darki.netlify.app/" target="_blank" class="project-heading-link">
-                                <h3 class="fw-bold text-info">Fylo</h3>
+                            <a href="https://comfyy-sloth.netlify.app" target="_blank" class="project-heading-link">
+                                <h3 class="fw-bold comfy-color">Comfy Sloth</h3>
                             </a>
-                            <p class="mb-5 text-muted">TailWindCSS Project/
-                                <a href="https://github.com/imoncoc/faylo" target="_blank" class="project-heading-link text-info">Github link</a>
+                            <p class="mb-5 text-muted fw-semibold">Bootstrap Project/
+                                <a href="https://github.com/imoncoc/Comfy_Sloth" target="_blank" class="project-heading-link text-info">Github link</a>
                             </p>
                         </div>
-                        <div class="composition" style="margin-bottom: 16rem;">
-                            <a href="https://fylo-darki.netlify.app" target="_blank"><img src="./image/fylo 1.JPG" alt="Photo 1" class="composition__photo composition__photo--p1"></a>
-                            <a href="https://fylo-darki.netlify.app" target="_blank"><img src="./image/fylo 2.JPG" alt="Photo 2" class="composition__photo composition__photo--p2"></a>
-                            <a href="https://fylo-darki.netlify.app" target="_blank"><img src="./image/fylo 3.JPG" alt="Photo 3" class="composition__photo composition__photo--p3"></a>
-                            <!-- <img src="./image/omnifood-2.JPG" alt="Photo 2" class="composition__photo composition__photo--p2 ">
-                  <img src="./image/omnifood-3.JPG" alt="Photo 3" class="composition__photo composition__photo--p3"> -->
+                        <div class="composition" style="margin-bottom: 18rem;">
+                            <a href="https://comfyy-sloth.netlify.app" target="_blank"><img src="./image/comfy-1.jpg" alt="Photo 1" class="composition__photo composition__photo--p1 composition__photo__comfy"></a>
+                            <a href="https://comfyy-sloth.netlify.app" target="_blank"><img src="./image/comfy-2.jpg" alt="Photo 2" class="composition__photo composition__photo--p2 composition__photo__comfy"></a>
+                            <a href="https://comfyy-sloth.netlify.app" target="_blank"><img src="./image/comfy-3.jpg" alt="Photo 3" class="composition__photo composition__photo--p3 composition__photo__comfy"></a>
                         </div>
                     </div>
 
                     <!-- Project 7 -->
                     <div class="col-10 col-md-6 mx-auto extra-space">
                         <div class="text-center">
-                            <a href="https://prosun.netlify.app" target="_blank" class="project-heading-link">
-                                <h3 class="fw-bold text-info">Prosun</h3>
+                            <a href="https://omnifood-imon.netlify.app" target="_blank" class="project-heading-link">
+                                <h3 class="fw-bold omni-food-color">Omni Food</h3>
                             </a>
-                            <p class="mb-5 text-muted">Bootstrap Project/
-                                <a href="https://github.com/imoncoc/prosun/tree/master" target="_blank" class="project-heading-link text-info">Github link</a>
+                            <p class="mb-5 text-muted fw-semibold">CSS Project/
+                                <a href="https://github.com/imoncoc/omnifood/tree/master" target="_blank" class="project-heading-link text-info">Github link</a>
                             </p>
                         </div>
-                        <div class="composition" style="margin-bottom: 18rem;">
-                            <a href="https://prosun.netlify.app" target="_blank"><img src="./image/Prosun.PNG" alt="Photo 1" class="composition__photo composition__photo--p1"></a>
-                            <a href="https://prosun.netlify.app" target="_blank"><img src="./image/Prosun 2.PNG" alt="Photo 2" class="composition__photo composition__photo--p2"></a>
-                            <a href="https://prosun.netlify.app" target="_blank"><img src="./image/prosun 3.jpg" alt="Photo 3" class="composition__photo composition__photo--p3"></a>
+                        <div class="composition" style="margin-bottom: 16rem;">
+                            <a href="https://omnifood-imon.netlify.app" target="_blank"><img src="./image/omnifood-1.JPG" alt="Photo 1" class="composition__photo composition__photo--p1 composition__photo__omni-food"></a>
+                            <a href="https://omnifood-imon.netlify.app" target="_blank"><img src="./image/omnifood-2.JPG" alt="Photo 2" class="composition__photo composition__photo--p2 composition__photo__omni-food"></a>
+                            <a href="https://omnifood-imon.netlify.app" target="_blank"><img src="./image/omnifood-3.JPG" alt="Photo 3" class="composition__photo composition__photo--p3 composition__photo__omni-food"></a>
+                            <!-- <img src="./image/omnifood-2.JPG" alt="Photo 2" class="composition__photo composition__photo--p2 ">
+                  <img src="./image/omnifood-3.JPG" alt="Photo 3" class="composition__photo composition__photo--p3"> -->
                         </div>
                     </div>
+
+                    <!-- Project 8 -->
+                    <div class="col-10 col-md-6 mx-auto  extra-space">
+                        <div class="text-center">
+                            <a href="https://fylo-darki.netlify.app/" target="_blank" class="project-heading-link">
+                                <h3 class="fw-bold fylo-color">Fylo</h3>
+                            </a>
+                            <p class="mb-5 text-muted fw-bold fw-semibold">TailWindCSS Project/
+                                <a href="https://github.com/imoncoc/faylo" target="_blank" class="project-heading-link text-info">Github link</a>
+                            </p>
+                        </div>
+                        <div class="composition" style="margin-bottom: 16rem;">
+                            <a href="https://fylo-darki.netlify.app" target="_blank"><img src="./image/fylo 1.JPG" alt="Photo 1" class="composition__photo composition__photo--p1 composition__photo__fylo"></a>
+                            <a href="https://fylo-darki.netlify.app" target="_blank"><img src="./image/fylo 2.JPG" alt="Photo 2" class="composition__photo composition__photo--p2 composition__photo__fylo"></a>
+                            <a href="https://fylo-darki.netlify.app" target="_blank"><img src="./image/fylo 3.JPG" alt="Photo 3" class="composition__photo composition__photo--p3 composition__photo__fylo"></a>
+                        </div>
+                    </div>
+
+                    
                 </div>
             </div>
         </section>
@@ -379,7 +400,8 @@
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </body>
 

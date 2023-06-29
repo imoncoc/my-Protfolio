@@ -1,0 +1,14 @@
+/* Styles for smaller screens */
+@media screen and (max-width: 760px) {
+    .extra-space {
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+}
+
+@media screen and (max-width: 540px) {
+    .extra-space {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
